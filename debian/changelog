@@ -1,3 +1,27 @@
+waitress (3.0.2-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream release:
+    - [SECURITY] When using Waitress to process trusted proxy headers,
+      Waitress will now update the headers to drop any untrusted values,
+      thereby making sure that WSGI apps only get trusted and validated
+      values that Waitress itself used to update the environ.
+
+ -- Colin Watson <cjwatson@debian.org>  Wed, 20 Nov 2024 11:09:18 +0100
+
+waitress (3.0.1-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream release:
+    - CVE-2024-49768: Fix a race condition in Waitress when
+      `channel_request_lookahead` is enabled that could lead to HTTP request
+      smuggling (closes: #1086467).
+    - CVE-2024-49769: Fix a bug that would lead to Waitress busy looping on
+      select() on a half-open socket due to a race condition that existed
+      when creating a new HTTPChannel (closes: #1086468).
+
+ -- Colin Watson <cjwatson@debian.org>  Wed, 30 Oct 2024 23:22:09 +0000
+
 waitress (3.0.0-1) unstable; urgency=medium
 
   * Team upload.

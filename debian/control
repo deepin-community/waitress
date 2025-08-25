@@ -32,7 +32,7 @@ Description: production-quality pure-Python WSGI server (Documentation)
  Waitress is meant to be a production-quality pure-Python WSGI server with
  very acceptable performance. It has no dependencies except ones which live
  in the Python standard library. It runs on CPython on Unix and Windows under
- Python 3.8+. It is also known to run on PyPy 3 (version 3.8 compatible Python
+ Python 3.9+. It is also known to run on PyPy 3 (version 3.9 compatible Python
  and above) on UNIX. It supports HTTP/1.0 and HTTP/1.1.
  .
  This package only contains the documentation.
@@ -49,7 +49,7 @@ Description: production-quality pure-Python WSGI server (Python 3)
  Waitress is meant to be a production-quality pure-Python WSGI server with
  very acceptable performance. It has no dependencies except ones which live
  in the Python standard library. It runs on CPython on Unix and Windows under
- Python 3.8+. It is also known to run on PyPy 3 (version 3.8 compatible Python
+ Python 3.9+. It is also known to run on PyPy 3 (version 3.9 compatible Python
  and above) on UNIX. It supports HTTP/1.0 and HTTP/1.1.
  .
  This is the Python 3 version of the package.

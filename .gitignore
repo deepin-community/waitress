@@ -1,0 +1,11 @@
+*.egg-info/
+*.pyc
+env*/
+.coverage
+.coverage.*
+.tox/
+dist/
+build/
+coverage.xml
+docs/_themes
+docs/_build
